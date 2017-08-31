@@ -1,4 +1,11 @@
 "use strict";
+/*
+    The Decorator pattern (also known as Wrapper, an alternative naming shared with the Adapter pattern)
+    is a design pattern that allows behavior to be added to an individual object, either statically
+    or dynamically, without affecting the behavior of other objects from the same class.
+    The decorator pattern is often useful for adhering to the Single Responsibility Principle,
+    as it allows functionality to be divided between classes with unique areas of concern.
+*/
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
         ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
